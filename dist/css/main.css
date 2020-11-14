@@ -113,7 +113,7 @@ body {
           padding: 1rem 0;
           font-size: 1.3rem; }
   body .service {
-    padding: 2rem 0;
+    padding: 5rem 0;
     color: #214249; }
     body .service #service-text {
       padding: 2rem;
@@ -135,7 +135,7 @@ body {
   body .team {
     background: #32856a;
     color: #fff;
-    padding: 3rem 2rem; }
+    padding: 5rem 2rem; }
     body .team #team-section {
       align-items: center; }
       body .team #team-section #team-meet {
@@ -205,6 +205,8 @@ body {
     padding: 4rem 2rem; }
     body .contact .container {
       align-items: center; }
+      body .contact .container h1 {
+        text-decoration: underline #ffd240; }
       body .contact .container form {
         width: 80vw; }
         body .contact .container form input[type="text"],
