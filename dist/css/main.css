@@ -137,11 +137,13 @@ body {
     color: #fff;
     padding: 5rem 2rem; }
     body .team #team-section {
+      justify-content: center;
       align-items: center; }
       body .team #team-section #team-meet {
         padding: 2rem;
         flex-basis: 40vw;
-        flex-grow: 1; }
+        flex-grow: 1;
+        max-width: 512px; }
         body .team #team-section #team-meet h2 {
           font-size: 1.5rem; }
         body .team #team-section #team-meet p {
@@ -178,6 +180,7 @@ body {
       body .review #review-intro .container {
         justify-content: center;
         align-items: center;
+        text-align: center;
         color: #fff;
         background: #214249;
         border-bottom-left-radius: 50%;

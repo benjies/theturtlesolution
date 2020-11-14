@@ -108,11 +108,13 @@ body {
     padding: 5rem 2rem;
     #team-section {
       // Team Introduction
+      justify-content: center;
       align-items: center;
       #team-meet {
         padding: 2rem;
         flex-basis: 40vw;
         flex-grow: 1;
+        max-width: 512px;
         h2 {
           font-size: 1.5rem;
         }
@@ -163,6 +165,7 @@ body {
       .container {
         justify-content: center;
         align-items: center;
+        text-align: center;
         color: $white;
         background: $dark;
         border-bottom-left-radius: 50%;
