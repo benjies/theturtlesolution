@@ -114,7 +114,8 @@ body {
           font-size: 3rem; }
         body .hero .hero-content .hero-intro p {
           padding: 1rem 0;
-          font-size: 1.3rem; }
+          font-size: 1.3rem;
+          margin-bottom: 20px; }
   body .service {
     padding: 5rem 0;
     color: #214249; }
