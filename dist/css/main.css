@@ -154,7 +154,8 @@ body {
           padding: 1rem; }
         body .team #team-section #team-meet .btn-cta {
           width: 50%;
-          margin-left: 1rem; }
+          margin-left: 1rem;
+          text-align: center; }
       body .team #team-section #team-pfp {
         padding: 2rem;
         align-items: center;
