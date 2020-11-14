@@ -1,0 +1,49 @@
+// Colors
+$black: #343332;
+$white: #fff;
+$dark: #214249;
+$dark-2: #156064;
+$med: #195a4e;
+$med-2: #32856a;
+$pop: #ffd240;
+$light: #90ffdc;
+
+// BTNS
+.btn-cta {
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: $pop;
+  border: none;
+  color: $dark;
+  transition: all 01s;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: $white;
+    color: $dark;
+    transition: all 0.5s;
+  }
+}
+
+// FLEX
+.container {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}

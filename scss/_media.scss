@@ -1,0 +1,93 @@
+// Media Phone
+@media (max-width: 768px) {
+  body {
+    //   Hero
+    .hero {
+      .navbar {
+        h1 {
+          font-size: 1rem;
+        }
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+    // Services
+    .service {
+      #service-text {
+        text-align: center;
+      }
+      #service-row {
+        flex-direction: column;
+      }
+    }
+    // Team Section
+    .team {
+      overflow: hidden;
+      #team-meet {
+      }
+      #team-pfp {
+        display: none;
+      }
+    }
+    // Review Section
+    .review {
+      #review-section {
+        #review-text {
+          .item {
+            width: 90vw;
+            padding: 0;
+          }
+        }
+      }
+    }
+    // Footer
+    .footer {
+      .foot {
+        flex-direction: column;
+        font-size: 0.9rem;
+        text-align: center;
+        h1 {
+          margin-bottom: 10px;
+        }
+        p {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    // END BODY
+  }
+}
+
+// TableT?
+@media (max-width: 1050px) {
+  body {
+    .team {
+      #team-section {
+        flex-direction: column;
+        #team-meet {
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+        #team-pfp {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// Small Mobile
+@media (max-width: 400px) {
+  body {
+    .team {
+      #team-section {
+        #team-meet.container.col {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
