@@ -6,4 +6,4 @@ An example of a Web Agency site with:
 - Color theme
 - Documented Code
 
-View a live demo [here]() hosted with Netlify.
+View a live demo [here](https://quirky-noether-e72d7d.netlify.app/) hosted with Netlify.
