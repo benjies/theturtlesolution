@@ -216,6 +216,7 @@ body {
       body .contact .container form {
         width: 80vw; }
         body .contact .container form input[type="text"],
+        body .contact .container form input[type="email"],
         body .contact .container form select,
         body .contact .container form textarea {
           width: 100%;
