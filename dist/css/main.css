@@ -33,10 +33,13 @@
   align-items: center; }
 
 @media (max-width: 768px) {
-  body .hero .navbar h1 {
-    font-size: 1rem; }
-  body .hero .navbar li {
-    font-size: 1rem; }
+  body .hero .navbar {
+    flex-direction: column; }
+    body .hero .navbar h1 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem; }
+    body .hero .navbar li {
+      font-size: 1rem; }
   body .service #service-text {
     text-align: center; }
   body .service #service-row {
@@ -117,7 +120,7 @@ body {
           font-size: 1.3rem;
           margin-bottom: 20px; }
   body .service {
-    padding: 5rem 0;
+    padding: 4rem 0;
     color: #214249; }
     body .service #service-text {
       padding: 2rem;
@@ -139,7 +142,7 @@ body {
   body .team {
     background: #32856a;
     color: #fff;
-    padding: 5rem 2rem; }
+    padding: 1rem 2rem; }
     body .team #team-section {
       justify-content: center;
       align-items: center; }
